@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,900&family=DM+Sans:opsz@9..40&family=Lato:ital,wght@0,700;1,400&family=Lora&family=Poppins:wght@400;700&family=Roboto:wght@400;700&family=Work+Sans:wght@400;700&display=swap');
+.main__container{
+  margin: 0 auto;
+  width: 100%;
+}
+.navbar__Design{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 2.8rem;
+      margin-top: 1rem;
+      border-bottom: 2px solid #fff;
+}
+.navbar__Design .heading{
+     font-size: 1rem;
+     margin-left: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.heading span{
+        height: 30px;
+        background: #fff;
+        border-radius: 2px;
+        color:#000;
+        padding: 0px 2px;
+}
+.logo__section{
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     gap:1.4rem;
+}
+.logo__section{
+    margin-right: 20px;
+}
+.logo__section ul{
+      display: flex;
+      align-items: center;
+      list-style: none;
+      gap:1.2rem;
+      font-size: 1rem;
+}
+.logo__section .logo{
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+}
+.logo__section .logo img{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+}
+.query__option{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    font-size: 1rem;
+    margin-left: 30px;
+    margin-top: 1rem;
+    gap:1rem;
+}
+.query__option .icon i{
+    font-size: 1.8rem;
+}
+/* --------------------------The middle section is started ------------------------------------------ */
+.feedback__content{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      flex-direction: column;
+      position: relative;
+}
+.feedback__content .upper__feedback{
+      width: 620px;
+      border-radius: 7px;
+      text-align: start;
+      color:#000;
+      background: #e9e6e6;
+}
+.upper__content{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding:0.8rem;
+}
+.upper__content button{
+    margin-left: 10px;
+    font-size: 1rem;
+    border-radius: 2px;
+    border: 1px solid rgb(133, 212, 231);
+    background: rgb(133, 212, 231);
+    padding:6px 7px;
+    color:#1a1919;
+}
+.logo__design{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0.7rem;
+    margin-top: -20px;
+}
+.content p{
+      font-weight: 500;
+}
+.content span{
+    font-size: 13px;
+}
+.bottom__view{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin:10px 10px;
+      font-size: 12px;
+}
+.middle__feedback{
+       display:flex;
+       align-items: center;
+       justify-content:space-between;
+       width: 620px;
+}
+.select__choice {
+      padding: 5px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background-color: #fff;
+      color: #333;
+      width: 130px; 
+  }
+  
+
+  .select__choice option {
+      padding: 8px;
+      font-size: 16px;
+      background-color: #fff;
+      color: #333;
+      border-radius: 3px;
+  }
+.lower__feedback{
+      width: 620px;
+      color:#000;
+      background: #e9e6e6;
+      border-radius: 7px;
+}
+.user__information{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 5px 10px;
+}
+.user__information .left__side{
+       display: flex;
+       gap:1rem;
+}
+.user__information .profile{
+       height: 40px;
+       width: 40px;
+       background: #fff;
+       border-radius: 50%;
+}
+.user__information .profile img{
+        height: 40px;
+        width: 40px;
+        object-fit: contain;
+        border-radius: 50%;
+}
+.user__information .text{
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+       justify-content:flex-start;
+       text-align: start;
+       padding: 5px 0px;
+       font-size: 14px;
+}
+.user__feedback{
+        font-size: 13px;
+        margin-left: 10px;
+        text-shadow: 2px 4px 8px rgba(22, 22, 22, 0.24);
+        color: #000000;
+}
+.user__response{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:1rem;
+        margin-bottom: 0.5rem;
+}
+.icons{
+       display: flex;
+       align-items: center;
+       gap:0.7rem;
+}
+.input__element{
+        width: 350px;
+        /* margin: 0px px; */
+        height: 25px;
+        border-radius: 5px;
+        border: 1px solid gray;
+        padding:4px;  
+        background: #fff; 
+}
+.input__element input{
+        border: none;
+        outline:0;
+        width: 330px;
+        margin-left: 4px;
+}
+.user__response button{
+        height: 32px;
+        width: 70px;
+        outline: none;
+        border-radius: 5px;
+        outline:0;
+        border: 0.1px solid gray;
+}
+
+/* --------------------------------- The feedback icon ------------------------------------------------- */
+.feedback__icon{
+       height: 400px;
+       /* width: 260px; */
+       position: absolute;
+       right:8rem;
+       top:5rem;
+}
+.feedback__content .container{
+       margin-top:8rem;
+       position: relative;
+}
+.container .toggle__container{
+        display: none;
+}
+.mini__container{
+      display: flex;
+      align-content: center;
+      justify-content: flex-end;
+      gap:1rem;
+      padding: 8px 10px; 
+}
+.text__content{
+        height: 30px;
+        color:#000;
+        background: #fff;
+        padding: 2px 5px;
+        border-radius: 5px;
+}
+.icon__container{
+       height: 40px;
+       width: 40px;
+       border-radius: 50%;
+       color:#000;
+       background: #fff;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       cursor: pointer;
+       font-size: 1.3rem;
+  }
+  .feedback__container{
+      position: absolute;
+      top:14rem;
+      right:0.5rem;
+  }
+  .adjust__container{
+       position: absolute;
+       left:11rem;
+  }
